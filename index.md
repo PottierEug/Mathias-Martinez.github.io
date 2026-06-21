@@ -13,11 +13,11 @@ Management des Risques (SDMR) à l'IAE Paris-Sorbonne. Je m'intéresse à la ma�
 ## Projets
 
 <div class="projects">
-{% for projet in site.data.projects %}
-  <article class="card">
+{% for projet in site.projects %}
+  <a class="card" href="{{ projet.url | relative_url }}">
     <span class="card-tag">{{ projet.category }}</span>
     <h3>{{ projet.title }}</h3>
-    <p>{{ projet.description }}</p>
-  </article>
+    <p>{{ projet.summary }}</p>
+  </a>
 {% endfor %}
 </div>
