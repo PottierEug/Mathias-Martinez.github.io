@@ -19,3 +19,12 @@ J'ai mené la démarche en trois temps. J'ai d'abord interrogé le chef de chant
 ## Compétences mobilisées
 
 Analyse de risque sur le terrain (chantier) · rédaction de mode opératoire · animation transverse (chantier, achats, fournisseurs) · co-construction et validation d'un standard sécurité.
+
+<a class="btn" href="{{ '/assets/modop-regards.pdf' | relative_url }}" download>📄 Télécharger le PDF</a>
+
+<div class="pdf-viewer">
+  <object data="{{ '/assets/modop-regards.pdf' | relative_url }}" type="application/pdf">
+    <p>Ton navigateur n'affiche pas les PDF intégrés —
+       <a href="{{ '/assets/modop-regards.pdf' | relative_url }}" download>télécharge le MODOP ici</a>.</p>
+  </object>
+</div>
